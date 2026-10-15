@@ -313,16 +313,16 @@ through dedicated WilyCode packages:
 
 | Extension | Purpose |
 | --- | --- |
-| **[Template Extension Assets](https://github.com/wilycode/template-extension-assets)** | Asset URL helpers for templates. |
-| **[Template Extension String](https://github.com/wilycode/template-extension-string)** | Reusable string helpers and filters for template output. |
-| **[Template Extension Translate](https://github.com/wilycode/template-extension-translate)** | Translation support for localized templates. |
+| **[Template Assets](https://github.com/wilycode/template-assets)** | Asset URL helpers for templates. |
+| **[Template String](https://github.com/wilycode/template-string)** | Reusable string helpers and filters for template output. |
+| **[Template Translation](https://github.com/wilycode/template-translation)** | Translation support for localized templates. |
 
 Install the extensions you need with Composer:
 
 ```bash
-composer require wilycode/template-extension-assets
-composer require wilycode/template-extension-string
-composer require wilycode/template-extension-translate
+composer require wilycode/template-assets
+composer require wilycode/template-string
+composer require wilycode/template-translation
 ```
 
 These extensions are separate packages. The core engine does not require any of

@@ -20,7 +20,7 @@ All notable changes to WilyCode Template are documented here.
 
 - Clarified `@set` versus `@share` scope across `@extends`, `@include`, and `render()` data, including shared-state lifetime.
 - Kept `AGENTS.md` brief, directing coding agents to README as the documentation source of truth.
-- Recommended the Assets, String, and Translate template extensions in README.
+- Recommended the `template-assets`, `template-string`, and `template-translation` packages in README.
 
 ### Refactored
 
